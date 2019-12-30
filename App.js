@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Table from "./Table";
+import AutoFocusInput from './AutoFocusInput'
 
 class App extends Component {
   state = {
@@ -15,7 +16,9 @@ class App extends Component {
       <div>
         hello,react
         <Table arrData={arrDatas} />
+        <AutoFocusInput />
       </div>
+      
     );
   }
 }
